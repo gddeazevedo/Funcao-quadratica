@@ -3,14 +3,14 @@ canvas {
   border-style: groove;
   border-width: 10px;
   background-color: darkgray;
-	border-radius: 10px;
+  border-radius: 10px;
 }
 
 body {
   background-color: darkgray;
-	font-size: 150%;
-	text-align: center;
-	background-image: url("https://i1.wp.com/fanf1.com.br/wp-content/uploads/2017/10/fundo-cinza.jpg" );
+  font-size: 150%;
+  text-align: center;
+  background-image: url("https://i1.wp.com/fanf1.com.br/wp-content/uploads/2017/10/fundo-cinza.jpg" );
   background-repeat: round;
   background-blend-mode: screen;
   background-attachment: fixed;
@@ -18,12 +18,12 @@ body {
 
 button {
   font-size: 200%;
-	margin-top: 10px;
-	border-style: outset;
-	border-width: 7px;
-	background-color: darkgray;
-	border-color: gray;
-	border-radius: 10px;
+  margin-top: 10px;
+  border-style: outset;
+  border-width: 7px;
+  background-color: darkgray;
+  border-color: gray;
+  border-radius: 10px;
 }
 
 
@@ -33,6 +33,6 @@ button:hover {
 }
 
 input {
-	width: 35px;
-	height: 35px;
+  width: 35px;
+  height: 35px;
 }
