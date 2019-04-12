@@ -81,7 +81,7 @@ const linha = function(x0, y0, x1, y1, ctx) {
 
 
 const desenharNumeros = function(x, y, i, ctx) {
-  ctx.font = '17spx Arial'
+  ctx.font = '17px Arial'
   let tmp = i
   let num = tmp / 25
   ctx.fillText(num, x, y)
