@@ -188,7 +188,7 @@ const calcular = function() {
     r.textContent = 'x1= ' + x1 + ' x2= ' + x2
   }
 
-  else if ((coef.a === 0 && coef.b === 0 && coef.c === 0) || delta < 0)
+  else if (delta < 0)
     r.textContent = new Error('Não existe raíz real!')
 
   inputResultFunc(coef.a, coef.b, coef.c, x1, x2, x)
